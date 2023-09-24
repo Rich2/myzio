@@ -1,7 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0mPackaging /Common/myzio/target/scala-2.12/myzio_2.12-0.1.0-SNAPSHOT.jar ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	MyApp.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Common/myzio/target/scala-2.12/classes/MyApp.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	MyApp$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Common/myzio/target/scala-2.12/classes/MyApp$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

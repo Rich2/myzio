@@ -10,10 +10,8 @@ object HelloWorld extends ZIOAppDefault
     Method.GET / "index.htm" -> handHome,
     Method.GET / "index" -> handHome,
     Method.GET / "text" -> handler(Response.html("This is the text page"))
-
   )
   val app: HttpApp[Any] = routes.toHttpApp
 
-  override val run =
-    Server.serve(app).provide(Server.default)
+  override val run = Server.serve(app).provide(Server.default)
 }

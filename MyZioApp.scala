@@ -1,8 +1,11 @@
-import zio._, Console._, http._
+package tweb
+import zio._, Console._, http._, ostrat._, geom._, prid.phex._
 
 object HelloWorld extends ZIOAppDefault
 {
   val handHome = handler(Response.html("This is the home page"))
+  val pt = ostrat.geom.Pt2(4, 5)
+  val hex1 = HCen(4, 4)
 
   val routes: Routes[Any, Response] = Routes(
     Method.GET / "" -> handHome,

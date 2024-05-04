@@ -1,4 +1,4 @@
-import zio._, Console._, http._, ostrat._, geom._
+import zio._, Console._, http._
 
 object HelloWorld extends ZIOAppDefault
 {

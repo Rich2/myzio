@@ -12,7 +12,7 @@ object HelloWorld extends ZIOAppDefault
     Method.GET / "index.html" -> handHome,
     Method.GET / "index.htm" -> handHome,
     Method.GET / "index" -> handHome,
-    Method.GET / "text" -> handler(Response.html("This is the text page"))
+    Method.GET / "geom.html" -> handler(Response.html(s"This is a pt: $pt"))
   )
   val app: HttpApp[Any] = routes.toHttpApp
 
